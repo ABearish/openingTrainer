@@ -1,11 +1,11 @@
 import React from "react";
-import Chessground from "react-chessground";
-import "react-chessground/dist/styles/chessground.css";
+import BoardContainer from '../client/Redux/container/boardContainer';
 
 function App() {
   return (
     <div className="App">
-      <Chessground/>
+      <h1>Hello World</h1>
+      <BoardContainer />
     </div>
   );
 }
