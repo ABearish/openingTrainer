@@ -1,0 +1,14 @@
+.status {
+  font-family: 'Antonio', sans-serif;
+  width: 91%;
+}
+
+.status-title {
+  background: linear-gradient(to bottom, #3c3934, #33312e 100%);
+  width: 100%;
+  text-align: center;
+}
+
+.status-message {
+  border: 2px solid #3c3934;
+}

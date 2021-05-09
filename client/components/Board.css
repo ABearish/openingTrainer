@@ -1,0 +1,25 @@
+.layout {
+  display: grid;
+  grid-template-areas:
+    "layout-info layout-info"
+    "layout-board layout-move-list"
+    "layout-status layout-status";
+  justify-content: center;
+}
+
+.layout-info {
+  grid-area: layout-info;
+}
+
+.layout-board {
+  grid-area: layout-board;
+}
+
+.layout-move-list {
+  grid-area: layout-move-list;
+}
+
+.layout-status {
+  grid-area: layout-status;
+  height: 100%;
+}
